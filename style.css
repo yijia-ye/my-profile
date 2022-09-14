@@ -85,10 +85,6 @@ a {
 	margin-bottom: 20px;
 }
 
-.Button-green: hover{
-	transition: background-color .5s ease;
-	}
-
 .list_inline {
 	background-color: rgba(1, 1, 1, 0);
 	list-style: non;
