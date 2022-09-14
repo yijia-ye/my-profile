@@ -1,0 +1,111 @@
+body{
+	background-color: whitesmoke ;
+	color:  black;
+	font-family: "Helicative", serif;
+	font-size: 20px;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: "Helicative", serif;
+	font-weight: 750;
+}
+
+
+h1 {
+	color: #395B64;
+	font-size: 75px;
+	padding-top: 0px;
+}
+
+h2 {
+	font-size: 32px;
+	color: #2C3333;
+}
+
+h3{
+	font-size: 22px;
+}
+
+.宣传 {
+	font-size: 20px;
+	padding:10px 20px 0px 20px;
+}
+
+a {
+	font-size: 30px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+
+@media(max-width: 960px){
+	.container{
+		width:900px;
+		margin: 100px auto
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+		width:500px;
+		margin: 20px auto;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width:300px;
+		margin: 20px auto;
+	}
+}
+
+.box-design{
+	margin: 20px auto;
+	margin-bottom: 20px;
+	width: 900px;
+	background-color: rgba(231, 246, 242, 0.3);
+	padding: 10px 20px 25px 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+	text-align: center;			
+}
+
+.image_circle {
+	border-radius: 40%;
+}
+
+.Button-green {
+	font-size: 24px;
+	color: whitesmoke;
+	background-color: #293B5F;
+	border-color: rgba(41, 59, 95, 0.2);
+	padding: 6px 12px;
+	margin-bottom: 20px;
+}
+
+.Button-green: hover{
+	transition: background-color .5s ease;
+	}
+
+.list_inline {
+	background-color: rgba(1, 1, 1, 0);
+	list-style: non;
+	padding-left: 0px;
+}
+
+.list_inline > li {
+	display: inline;
+	padding:  0px 20px;
+	font-size: 20px;
+	font-color: rgba(1,1,1,0);
+}
+
+.list_inline i{
+	font_size: 20px;
+}
+
+
+
+
